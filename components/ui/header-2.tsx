@@ -158,7 +158,7 @@ function BrandLogo() {
         </svg>
       </div>
       <span className="font-cabin text-[15px] font-semibold tracking-tight text-white">
-        HubTech
+        Velox
       </span>
     </div>
   );

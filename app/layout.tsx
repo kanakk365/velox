@@ -26,7 +26,7 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "HubTech — AI Social & Blog Autopilot",
+  title: "Velox — AI Social & Blog Autopilot",
   description:
     "Automate your social posts and blogs with AI. Drop in your keywords, we scrape the web and publish on-brand content to your channels.",
 };

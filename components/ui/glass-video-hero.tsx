@@ -36,6 +36,16 @@ const HeroSection = () => {
           transparent={false}
         />
       </div>
+      {/* Bottom blur + fade transition into next section */}
+      <div className="pointer-events-none absolute bottom-0 inset-x-0 z-[2] h-48 bg-gradient-to-t from-[#07040f] via-[#07040f]/70 to-transparent" />
+      <div
+        className="pointer-events-none absolute bottom-0 inset-x-0 z-[2] h-36 backdrop-blur-[6px]"
+        style={{
+          maskImage: 'linear-gradient(to top, black 0%, black 30%, transparent 100%)',
+          WebkitMaskImage: 'linear-gradient(to top, black 0%, black 30%, transparent 100%)',
+        }}
+      />
+
       <div className="relative z-10 flex min-h-screen flex-col items-center justify-center text-center px-6">
         <div className="inline-flex items-center gap-2.5 h-[38px] px-3.5 rounded-[10px] backdrop-blur-xl border border-[rgba(164,132,215,0.5)] bg-[rgba(85,80,110,0.4)] shadow-[0_0_20px_rgba(123,57,252,0.15),inset_0_1px_0_rgba(255,255,255,0.08)]">
           <span className="bg-primary text-primary-foreground font-cabin font-medium text-xs px-2.5 py-1 rounded-[6px] shadow-[0_0_8px_rgba(123,57,252,0.4)]">
